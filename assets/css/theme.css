@@ -497,9 +497,20 @@ body {
   text-decoration: none;
   color: #163758;
 }
-.company-image {
-  max-height: 35px;
-  margin: 0 5px 5px 0;
+.work-image {
+  width: 45px;
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+#work-experience ul.list-unstyled > li div.content {
+  display: table-row;
+}
+#work-experience ul.list-unstyled > li div.content .work-image {
+  display: table-cell;
+}
+#work-experience ul.list-unstyled > li div.content .work-details {
+  display: table-cell;
 }
 .card-skills {
   position: relative;

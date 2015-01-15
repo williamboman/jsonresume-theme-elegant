@@ -282,39 +282,41 @@
                     {{#each resume.work}}
                       <li class="card card-nested clearfix">
                         <div class="content has-sidebar">
-                          <p class="clear-margin-sm">
-                            {{#if image}}
-                              <img src="{{image}}" alt="{{company}}" class="company-image">
-                            {{/if}}
-                            <strong>{{position}}</strong>,&nbsp;{{company}}
-                          </p>
-                          <p class="text-muted visible-xs visible-sm">
-                            <small>
-                              <span class="space-right">
-                                {{startDate}} -
-                                {{#if endDate}}
-                                  {{endDate}}
-                                {{else}}
-                                  Present
-                                {{/if}}
-                              </span>
-
-                              {{#if duration}}
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  {{duration}}
-                                </span>
-                              {{/if}}
-                            </small>
-                          </p>
-                          <p>{{summary}}</p>
-                          {{#if highlights}}
-                            <ul>
-                              {{#each highlights}}
-                                <li> {{.}} </li>
-                              {{/each}}
-                            </ul>
+                          {{#if image}}
+                            <img src="{{image}}" alt="{{company}}" class="work-image">
                           {{/if}}
+                          <div class="work-details">
+                              <p class="clear-margin-sm">
+                                <strong>{{position}}</strong>,&nbsp;{{company}}
+                              </p>
+                              <p class="text-muted visible-xs visible-sm">
+                                <small>
+                                  <span class="space-right">
+                                    {{startDate}} -
+                                    {{#if endDate}}
+                                      {{endDate}}
+                                    {{else}}
+                                      Present
+                                    {{/if}}
+                                  </span>
+
+                                  {{#if duration}}
+                                    <span>
+                                      <i class="fa fa-clock-o icon-left"></i>
+                                      {{duration}}
+                                    </span>
+                                  {{/if}}
+                                </small>
+                              </p>
+                              <p>{{summary}}</p>
+                              {{#if highlights}}
+                                <ul>
+                                  {{#each highlights}}
+                                    <li> {{.}} </li>
+                                  {{/each}}
+                                </ul>
+                              {{/if}}
+                          </div>
                         </div>
 
                         <div class="sidebar text-muted text-center hidden-xs hidden-sm">
@@ -659,7 +661,7 @@
       </div>
     </div>
 
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.js"></script>
 
