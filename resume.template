@@ -50,10 +50,10 @@
               </a>
             </li>
             <li>
-              <a href="#skills">
+              <!-- <a href="#skills">
                 <i class="fa fa-code"></i>
                 Skills
-              </a>
+              </a> -->
             </li>
             <li>
               <a href="#education">
@@ -350,7 +350,7 @@
                 </div>
               </div>
 
-              <div class="detail" id="skills">
+              <!-- <div class="detail" id="skills">
                 <div class="icon">
                   <i class="fa fa-lg fa-code"></i>
                   <span class="mobile-title">Skills</span>
@@ -384,7 +384,7 @@
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
               <div class="detail" id="education">
                 <div class="icon">
