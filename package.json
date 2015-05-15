@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-wb-elegant",
-  "version": "0.10.0",
+  "version": "0.10.2",
   "description": "Forked. Elegant theme for jsonresume",
   "main": "index.js",
   "scripts": {
